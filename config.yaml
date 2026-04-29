@@ -1,0 +1,19 @@
+data:
+  base_path: "./UCI-HAR Dataset/"
+  
+thresholds:
+  tau_high: 0.55
+  tau_low: 0.50
+  psi_monitor: 0.10
+  psi_drift: 0.25
+
+models:
+  lr_max_iter: 1000
+  xgb_estimators: 300
+  xgb_depth: 6
+  nn_epochs: 30
+  nn_batch_size: 64
+  nn_lr: 0.001
+
+logging:
+  log_file: "system.log"
