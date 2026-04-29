@@ -1,0 +1,5 @@
+UCI-HAR Dataset/
+.ipynb_checkpoints/
+*.log
+*.joblib
+artifacts/
